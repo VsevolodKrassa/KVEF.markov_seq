@@ -1,38 +1,42 @@
-Hi everyone!
-Here’s a new module for Max/MSP — a matrix-based Markov sequencer.
+# Hi everyone!  
+Here’s a new module for **Max/MSP** — a matrix-based **Markov sequencer**.  
 
-🌟 Features
+---
 
-Fully implemented in JSUI
+## 🌟 Features  
+- Fully implemented in **JSUI**  
+- Quickly adjust the number of steps (1 to 32), the grid updates automatically  
+- Save and load states via **JSON**  
+- Insert directly as a **bpatcher** from the *Modules* tab  
+- Comes with a handy **help file** including examples  
 
-Quickly adjust the number of steps (1 to 32), the grid updates automatically
+---
 
-Save and load states via JSON
+## How it works  
+Each cell defines a **weight** for the transition from the current step to the next.  
+The higher the weight, the greater the chance this transition will be chosen.  
+The result is a “living” pattern that constantly evolves while preserving its internal logic.  
 
-Insert directly as a bpatcher from the Modules tab
+Try it out, experiment, and share your feedback  
+**Happy patching! ✨**
 
-Comes with a handy help file including examples
+---
 
-How it works
-Each cell defines a weight for the transition from the current step to the next. The higher the weight, the greater the chance this transition will be chosen. The result is a “living” pattern that constantly evolves while preserving its internal logic.
+## 📥 Installation  
 
-Try it out, experiment, and share your feedback 
-Happy patching! ✨
+1. Download the folder **`KVEF.markov_seq`**.  
+2. Place it into the **Packages** directory of Max:  
 
-📥 Installation:
+**macOS**  
+- Max 9 → `~/Documents/Max 9/Packages/`  
+- Max 8 → `~/Documents/Max 8/Packages/`  
 
-Download the folder KVEF.markov_seq.
+**Windows**  
+- Max 9 → `\Users\<USERNAME>\Documents\Max 9\Packages\`  
+- Max 8 → `\Users\<USERNAME>\Documents\Max 8\Packages\`  
 
-Place it into the Packages directory of Max:
+After restarting Max, the package will appear in **File Browser → Packages → Modules**.  
 
-macOS:
-<br>Max 9 → ~/Documents/Max 9/Packages/
-<br>Max 8 → ~/Documents/Max 8/Packages/
+---
 
-Windows:
-<br>Max 9 → \Users\<USERNAME>\Documents\Max 9\Packages\
-Max 8 → \Users\<USERNAME>\Documents\Max 8\Packages\
-
-After restarting Max, the package will appear in File Browser → Packages → Modules.
-
-by KVEF
+by **KVEF**

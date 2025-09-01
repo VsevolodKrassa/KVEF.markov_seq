@@ -1,0 +1,12 @@
+{
+  "name": "KVEF",
+  "version": "0.0.1",
+  "author": "KVEF",
+  "description": "KVEF modules and abstractions. Drag from Modules to insert a bpatcher.",
+  "tags": [
+    "modules",
+    "bpatcher",
+    "sequencer",
+    "markov"
+  ]
+}

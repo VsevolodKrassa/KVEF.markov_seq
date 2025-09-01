@@ -31,7 +31,7 @@ macOS:
 
 Windows:
 <br>Max 9 → \Users\<USERNAME>\Documents\Max 9\Packages\
-<br>Max 8 → \Users\<USERNAME>\Documents\Max 8\Packages\
+Max 8 → \Users\<USERNAME>\Documents\Max 8\Packages\
 
 After restarting Max, the package will appear in File Browser → Packages → Modules.
 

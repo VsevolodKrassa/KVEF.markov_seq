@@ -20,14 +20,19 @@ Try it out, experiment, and share your feedback
 Happy patching! ✨
 
 📥 Installation:
+
 Download the folder KVEF.markov_seq.
+
 Place it into the Packages directory of Max:
+
 macOS:
-Max 9 → ~/Documents/Max 9/Packages/
+<br>Max 9 → ~/Documents/Max 9/Packages/
 Max 8 → ~/Documents/Max 8/Packages/
+
 Windows:
-Max 9 → \Users\<USERNAME>\Documents\Max 9\Packages\
+<br>Max 9 → \Users\<USERNAME>\Documents\Max 9\Packages\
 Max 8 → \Users\<USERNAME>\Documents\Max 8\Packages\
+
 After restarting Max, the package will appear in File Browser → Packages → Modules.
 
 by KVEF
